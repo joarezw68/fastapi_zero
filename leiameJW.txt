@@ -1,0 +1,5 @@
+# JW68 - 07/06/2025
+#
+poetry shell # ativa poetry
+task lint    # verifica se tem erro nos arquivos
+task format  # se tiver erro, usar o format para corrigir/formatar
