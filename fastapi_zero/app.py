@@ -7,7 +7,6 @@ from fastapi_zero.schemas import (
 )
 app = FastAPI(title="*** FastAPI - JW68 ***")
 database = []
-cat git 
 
 @app.get("/", status_code=HTTPStatus.OK, response_model=Message)
 def read_root():
